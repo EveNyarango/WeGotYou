@@ -1,12 +1,32 @@
-#nav{
-    margin: 0 auto;
-     margin-right: 0%;
-     display: flex;
-     justify-content: flex-end;
-     list-style-type: none;
-     float: right;
- }
- nav>li{
-     display:inline;
- }
+.home {
+    background-image: url('/images/truebackground.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-block: 8px;
+    /* background-color: yellowgreen; */
+    text-align:center;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 20px;
+    float: right;
+    /* font-size: medium; */
+  }
+  li {
+    display: inline;
 
+  }
+  a {
+      /* width: 25%; */
+      padding:10px;
+      text-decoration: none;
+  }
+
+  nav>ul>li>a:hover {
+    border: 2px rgb(19, 230, 159);
+    background-color: rgb(7, 123, 168);
+    transition-duration: 2s;
+    border-radius: 3px;
+  }
