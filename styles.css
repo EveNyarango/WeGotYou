@@ -1,0 +1,12 @@
+#nav{
+    margin: 0 auto;
+     margin-right: 0%;
+     display: flex;
+     justify-content: flex-end;
+     list-style-type: none;
+     float: right;
+ }
+ nav>li{
+     display:inline;
+ }
+
