@@ -1,0 +1,10 @@
+.login-box{
+    /* width: 100px;
+    padding: 15px;
+    text-align: center;
+     */
+     display: inline-block;
+}
+.login-box{
+    text-align: center;
+}
