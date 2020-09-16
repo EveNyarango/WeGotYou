@@ -1,6 +1,23 @@
 #order img{
     height:50px;
 }
+#team img{
+    width: 500px;
+    height: 500px;
+}
+#van{
+    display: flex;
+    justify-content: space-evenly;
+}
+#services{
+    text-align: center;
+}
+#partner img{
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    margin-left: 100px;
+}
 
 #contacts img{
     width: 50px;
