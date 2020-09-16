@@ -1,11 +1,11 @@
 
-.home {
+/* .home {
   background-image: url('./images/truebackground.jpg');
   background-repeat: no-repeat;
   height: 100vh;
   text-align: center;
   background-size: cover;
-  text-align: center;
+  text-align: center; */
   /* font-style: oblique; */
 .home{
     background-image: url('./images/truebackground.jpg');
