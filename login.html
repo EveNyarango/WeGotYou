@@ -2,52 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>log in</title>
-    <link rel="stylesheet" href="./login.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>log in</title>
+  <link rel="stylesheet" href="./login.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./index.html">
+  <link rel="stylesheet" href="./service1.html">
+  <link rel="stylesheet" href="./sign up.html">
+  <link rel="stylesheet" href="css/services.css">
+  <link>
+  
 </head>
+
 <body>
-    <nav>
+  <nav>
+    <a href="#login">Log in</a>
 
-        <a href="#login">Log in</a>
-  
-        <div class="dropdown">
-          <button class="dropbtn">Services
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="service1.html">Towing Services</a>
-            <a href="service2.html">Passengers/Borders Travel</a>
-            <a href="service3.html">Mechanical Services</a>
-          </div>
-        </div>
-        <a href="#about">About Us</a>
-  
-        <a href="#home">Home</a>
-      </nav>
-      <div class="cards" style="width: 65%; padding-left:35%;padding-top:5em;"  >
+    <div class="dropdown">
+      <button class="dropbtn">
+        Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="service1.html">Towing Services</a>
+        <a href="service2.html">Passengers/Borders Travel</a>
+        <a href="service3.html">Mechanical Services</a>
+      </div>
+    </div>
+    <a href="#about">About Us</a>
+
+    <a href="#home">Home</a>
+  </nav>
+  <div class="cards" style="width: 70%; padding-left: 25%; padding-top: 5em; padding-bottom:5em;" >
     <div class="login text-center bg-secondary">
-        <h1><b>log in</b></h1>
-        <label for="uname"><b>Username</b></label><br />
-        <input type="text" placeholder=" Enter Username" name="" value="" /><br /><br />
-        <label for="psw"><b>password</b></label><br />
-        <input type="password" placeholder="password" name="" value="" /><br>
-        <label>
-            <input type="checkbox" checked="checked" name="remember" /> Remember  me</label><br />
-            
+      <h1><b>log in</b></h1>
+      <label for="uname"><b>Username</b></label><br />
+      <input type="text" placeholder=" Enter Username" name="" value="" /><br /><br />
+      <label for="psw"><b>password</b></label><br />
+      <input type="password" placeholder="password" name="" value="" /><br />
+      <label>
+        <input type="checkbox" checked="checked" name="remember" /> Remember
+        me</label><br /><br>
 
-        <div class="textbox">
-            <button type="button" class="cancelbtn btn-outline-success">Log in</button> <br />
-            <a href="sign up.html"><button type="button" class="cancelbtn btn-outline-danger">Cancel</button></a> <br />
-            
+      <div class="textbox">
+        <button type="button" class="cancelbtn btn-outline-success">
+          Log in
+        </button>
+        <br /><br>
+        <a href="sign up.html" style="float: left;"><button type="button" class="cancelbtn btn-outline-danger">
+            Cancel
+          </button></a>
 
-        </div>
+        <span class="psw" styles="float:right;">Forgot <a href="#">password?</a></span><br><br>
+        <P style="float: left;"> <b>click the sign up button below to creat account </b></P>
+        <br><br>
+        <a href="sign up.html"><button type="button" class="cancelbtn  btn-outline-primary"> sign up </button></a>
+      </div>
     </div>
   </div>
+  <Footer>
+    <div id="contacts">
+      <h3>Contact us</h3>
+      <ul>
+        <li><a href="https://www.facebook.com/nyarango.eves" target="_blank"><img src="images/facebook (1).png"
+              alt=""></a></li> 
+        <li><a href="https://twitter.com/Evenyarang_o" target="_blank"><img src="images/twitter.png" alt="">
+          </a></li>
+        <li><a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZMzbCCCgPQhGQZFBgMDmCSxRhHmvdkFxSdfFkZRFQkVbRCCBlVlpQSNvBKtvKwlspTqQ"
+            target="_blank"><img src="images/gmail.png" alt="">
+          </a></li>
+        <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt=""></a></li>
+
+      </ul>
+    </div>
+    <p>Alright reserved by @2020 WeGotYou</p>
+  </Footer>
+
 
 </body>
+
 </html>
