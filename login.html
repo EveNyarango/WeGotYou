@@ -6,9 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>log in</title>
     <link rel="stylesheet" href="./login.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <nav>
+
+        <a href="#login">Log in</a>
+  
+        <div class="dropdown">
+          <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="service1.html">Towing Services</a>
+            <a href="service2.html">Passengers/Borders Travel</a>
+            <a href="service3.html">Mechanical Services</a>
+          </div>
+        </div>
+        <a href="#about">About Us</a>
+  
+        <a href="#home">Home</a>
+      </nav>
+      <div class="cards" style="width: 65%; padding-left:35%;padding-top:5em;"  >
     <div class="login text-center bg-secondary">
         <h1><b>log in</b></h1>
         <label for="uname"><b>Username</b></label><br />
@@ -17,10 +38,16 @@
         <input type="password" placeholder="password" name="" value="" /><br>
         <label>
             <input type="checkbox" checked="checked" name="remember" /> Remember  me</label><br />
+            
+
         <div class="textbox">
-            <a href="sign up.html"><button type="button" class="cancelbtn btn-outline-danger">Cancel</button></a>
-            <button type="button" class="cancelbtn btn-outline-success">Log in</button>
+            <button type="button" class="cancelbtn btn-outline-success">Log in</button> <br />
+            <a href="sign up.html"><button type="button" class="cancelbtn btn-outline-danger">Cancel</button></a> <br />
+            
+
         </div>
     </div>
+  </div>
+
 </body>
 </html>

@@ -1,4 +1,4 @@
-body{
+.home{
     background-image: url('./images/truebackground.jpg');
     background-repeat: no-repeat;
     height: 100vh;
@@ -73,4 +73,18 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown::before {
+  position: absolute;
+  content: " \2193";
+  top: 0px;
+  right: -8px;
+  height: 20px;
+  width: 20px;
 }
