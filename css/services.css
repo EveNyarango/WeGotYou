@@ -2,6 +2,32 @@
     height:50px;
 }
 
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+#team img{
+    width: 500px;
+    height: 500px;
+}
+#van{
+    display: flex;
+    justify-content: space-evenly;
+}
+#services{
+    text-align: center;
+}
+#partner img{
+    width: 140px;
+    height: 130px;
+    text-align: center;
+    margin-left: 100px;
+    padding: 0px 50px 50px;
+}
+
 #contacts img{
     width: 50px;
     height: 50px;
@@ -16,7 +42,11 @@
 }
 footer{
     background-color:#1E212D;
+<<<<<<< HEAD
     width:100%;
+=======
+    width: 100%;
+>>>>>>> 878c270ab726d079d28244d79732ecdd63235e24
     height:150px;
 }
 #contacts>h3{
